@@ -4,7 +4,6 @@
   import SocialLinks from '~/layout/SocialLinks.svelte'
   import Transition from '~/layout/Transition.svelte'
   import { page } from '$app/stores'
-  import { fade, fly } from 'svelte/transition'
   import '../app.scss'
 
   $: key = $page.url.pathname
